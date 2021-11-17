@@ -1,0 +1,10 @@
+[
+ {"id_proyecto":"ENDUTIH21","nombre_proyecto":"Encuesta Nacional Sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares 2021","anio":2021,"alias":"ENDUTIH","fecha_inicio":"21\/09\/21 00:00:00.000000000","fecha_final":"11\/10\/21 09:52:14.834391000","fd_excel":"FD ENDUTIH 2021 Procesamiento 08_Oct_2021.xlsx"}
+,{"id_proyecto":"ENIF21","nombre_proyecto":"Encuesta Nacional de Inclusión Financiera 2021","anio":2021,"alias":"ENIF","fecha_inicio":"12\/05\/21 00:00:00.000000000","fecha_final":"12\/07\/21 12:19:31.937540000","fd_excel":"FD ENIF 2021 Procesamiento 12 Julio 2021.xlsx"}
+,{"id_proyecto":"ENBIARE21","nombre_proyecto":"Encuesta Nacional de Bienestar Autorreportado 2021","anio":2021,"alias":"ENBIARE","fecha_inicio":"12\/05\/21 00:00:00.000000000","fecha_final":"28\/07\/21 13:51:36.769088000","fd_excel":"FD ENBIARE Procesamiento 28 Julio 2021.xlsx"}
+,{"id_proyecto":"ENVI20","nombre_proyecto":"Encuesta Nacional de Vivienda 2020","anio":2020,"alias":"ENVI","fecha_inicio":"21\/06\/21 00:00:00.000000000","fecha_final":"21\/06\/21 00:00:00.000000000","fd_excel":"FDp_ENVI 2020_V01.xlsx"}
+,{"id_proyecto":"PBA2021TMP","nombre_proyecto":"Prueba de inserción","anio":2099,"alias":"PRUEBA","fecha_inicio":"11\/11\/21 00:00:00.000000000","fecha_final":"01\/01\/01 00:00:00.000000000","fd_excel":"Sin archivo"}
+,{"id_proyecto":"BORRAME","nombre_proyecto":"Borrame sin problema","anio":2021,"alias":"Borrarme","fecha_inicio":"12\/11\/21 00:00:00.000000000","fecha_final":"01\/01\/01 00:00:00.000000000","fd_excel":"No hay"}
+,{"id_proyecto":"ENDISEG21","nombre_proyecto":"Encuesta Nacional sobre Diversidad Sexual y de Género 2021","anio":2021,"alias":"ENDISEG","fecha_inicio":"22\/09\/21 00:00:00.000000000","fecha_final":"22\/09\/21 13:55:53.722336000","fd_excel":"FDi-ENDISEG2021-V03-20210903 - VCALC.xlsx"}
+,{"id_proyecto":"EC21","nombre_proyecto":"Encuesta de Evaluación Cognitiva Para La ENASEM 2020","anio":2021,"alias":"EC_ENASEM","fecha_inicio":"01\/06\/21 00:00:00.000000000","fecha_final":"26\/08\/21 14:47:22.040242000","fd_excel":"FD EC-ENASEM 2021 Procesamiento Mayo 2021.xlsx"}
+]

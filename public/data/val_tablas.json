@@ -1,0 +1,268 @@
+[
+  {
+	 "id_tabla":"TR_ENDUTIH21_TMOCIBA",
+	 "llaves":"UPM,VIV_SEL,HOGAR,N_REN",
+	 "orden":5,
+	 "v_ini":"P1",
+	 "v_fin":"P14",
+	 "filtro_verificacion":"COD_RES_HOG='A'",
+	 "filtro_validacion":"COD_RES_HOG='A'",
+	 "id_proyecto":"ENDUTIH21"
+  },
+  {
+	 "id_tabla":"TR_ENDUTIH21_TVIV",
+	 "llaves":"UPM,VIV_SEL",
+	 "orden":1,
+	 "v_ini":"P1_1",
+	 "v_fin":"P2_3",
+	 "filtro_verificacion":"COD_RES_VIV IN ('01','02','03','04','05')",
+	 "filtro_validacion":"COD_RES_VIV IN ('01','02','03','04','05')",
+	 "id_proyecto":"ENDUTIH21"
+  },
+  {
+	 "id_tabla":"TR_ENDUTIH21_THOG_RES",
+	 "llaves":"UPM,VIV_SEL,HOGAR,NUM_REN",
+	 "orden":2,
+	 "v_ini":"P3_2",
+	 "v_fin":"P3_12",
+	 "filtro_verificacion":"COD_RES_HOG in ('A','B')",
+	 "filtro_validacion":"COD_RES_HOG in ('A','B')",
+	 "id_proyecto":"ENDUTIH21"
+  },
+  {
+	 "id_tabla":"TR_ENDUTIH21_THOG",
+	 "llaves":"UPM,VIV_SEL,HOGAR",
+	 "orden":3,
+	 "v_ini":"P4_1_1",
+	 "v_fin":"P5_11_3",
+	 "filtro_verificacion":"COD_RES_HOG in ('A','B')",
+	 "filtro_validacion":"COD_RES_HOG in ('A','B')",
+	 "id_proyecto":"ENDUTIH21"
+  },
+  {
+	 "id_tabla":"TR_ENDUTIH21_THOG_USU",
+	 "llaves":"UPM,VIV_SEL,HOGAR",
+	 "orden":4,
+	 "v_ini":"P6_1",
+	 "v_fin":"P9_11_15A",
+	 "filtro_verificacion":"COD_RES_HOG='A'",
+	 "filtro_validacion":"COD_RES_HOG='A'",
+	 "id_proyecto":"ENDUTIH21"
+  },
+  {
+	 "id_tabla":"TR_ENBIARE21_VIVIENDA",
+	 "llaves":"UPM,VIV_SEL",
+	 "orden":1,
+	 "v_ini":"P1_1",
+	 "v_fin":"P2_3",
+	 "filtro_verificacion":"RESUL_V IN ('01','02','03','04')",
+	 "filtro_validacion":"RESUL_V IN ('01','02','03','04')",
+	 "id_proyecto":"ENBIARE21"
+  },
+  {
+	 "id_tabla":"TR_ENBIARE21_SDEM",
+	 "llaves":"UPM,VIV_SEL,HOGAR,NUM_REN",
+	 "orden":2,
+	 "v_ini":"NOMBRE",
+	 "v_fin":"P4_10_MES",
+	 "filtro_verificacion":"RESUL_H IN ('A','B')",
+	 "filtro_validacion":"RESUL_H IN ('A','B')",
+	 "id_proyecto":"ENBIARE21"
+  },
+  {
+	 "id_tabla":"TR_ENBIARE21_HOGAR",
+	 "llaves":"UPM,VIV_SEL,HOGAR",
+	 "orden":3,
+	 "v_ini":"P3_1",
+	 "v_fin":"REN_INF",
+	 "filtro_verificacion":"RESUL_H IN ('A','B')",
+	 "filtro_validacion":"RESUL_H IN ('A','B')",
+	 "id_proyecto":"ENBIARE21"
+  },
+  {
+	 "id_tabla":"TR_ENBIARE21_BIARE",
+	 "llaves":"UPM,VIV_SEL,HOGAR,NUM_REN",
+	 "orden":4,
+	 "v_ini":"EDAD",
+	 "v_fin":"P2",
+	 "filtro_verificacion":"RESUL_H='A'",
+	 "filtro_validacion":"RESUL_H='A'",
+	 "id_proyecto":"ENBIARE21"
+  },
+  {
+	 "id_tabla":"TR_ENVI20_TVIVIENDA_V5",
+	 "llaves":"FOLIO,VIV_SEL",
+	 "orden":1,
+	 "v_ini":"P1_1",
+	 "v_fin":"FACTOR",
+	 "id_proyecto":"ENVI20"
+  },
+  {
+	 "id_tabla":"TR_ENVI20_THOGAR_V5",
+	 "llaves":"FOLIO,VIV_SEL,HOGAR,N_INF",
+	 "orden":2,
+	 "v_ini":"P3A1_1",
+	 "v_fin":"FACTOR",
+	 "id_proyecto":"ENVI20"
+  },
+  {
+	 "id_tabla":"TR_ENVI20_TSDEM_V5",
+	 "llaves":"FOLIO,VIV_SEL,HOGAR,N_REN",
+	 "orden":3,
+	 "v_ini":"PAREN",
+	 "v_fin":"FACTOR",
+	 "id_proyecto":"ENVI20"
+  },
+  {
+	 "id_tabla":"TR_ENVI20_TDEMANDA_V5",
+	 "llaves":"FOLIO,VIV_SEL,HOGAR,C_DENEVI",
+	 "orden":4,
+	 "v_ini":"P3A2_2",
+	 "v_fin":"FACTOR",
+	 "id_proyecto":"ENVI20"
+  },
+  {
+	 "id_tabla":"TR_ENVI20_TSEG_VIV_V5",
+	 "llaves":"FOLIO,VIV_SEL,HOGAR,N_INF",
+	 "orden":5,
+	 "v_ini":"FILTRO_7_1",
+	 "v_fin":"FACTOR",
+	 "id_proyecto":"ENVI20"
+  },
+  {
+	 "id_tabla":"TR_ENVI20_TVIV_ADICIONALES_V5",
+	 "llaves":"FOLIO,VIV_SEL,HOGAR,CONSEC",
+	 "orden":6,
+	 "v_ini":"P7_4_2",
+	 "v_fin":"FACTOR",
+	 "id_proyecto":"ENVI20"
+  },
+  {
+	 "id_tabla":"TR_ENVI20_TVIV_MASGASTO_V5",
+	 "llaves":"FOLIO,VIV_SEL,HOGAR,N_INF",
+	 "orden":7,
+	 "v_ini":"GP7_2",
+	 "v_fin":"FACTOR",
+	 "id_proyecto":"ENVI20"
+  },
+  {
+	 "id_tabla":"TR_ENDISEG21_TVIVIENDA",
+	 "llaves":"UPM,VIV_SEL",
+	 "orden":1,
+	 "v_ini":"P1_1",
+	 "v_fin":"TIPO_LEV",
+	 "id_proyecto":"ENDISEG21"
+  },
+  {
+	 "id_tabla":"TR_ENDISEG21_TSDEM",
+	 "llaves":"UPM,VIV_SEL,HOGAR,N_REN",
+	 "orden":2,
+	 "v_ini":"NOMBRE",
+	 "v_fin":"MAYORES15",
+	 "id_proyecto":"ENDISEG21"
+  },
+  {
+	 "id_tabla":"TR_ENDISEG21_TMODULO",
+	 "llaves":"UPM,VIV_SEL,HOGAR,N_REN",
+	 "orden":3,
+	 "v_ini":"RESUL_IND",
+	 "v_fin":"TOT_PER_HOG",
+	 "id_proyecto":"ENDISEG21"
+  },
+  {
+	 "id_tabla":"TR_ENDISEG21_TAPART_A",
+	 "llaves":"UPM,VIV_SEL,HOGAR,N_REN",
+	 "orden":4,
+	 "v_ini":"RESUL_IND",
+	 "v_fin":"SUM6_1_OTR",
+	 "id_proyecto":"ENDISEG21"
+  },
+  {
+	 "id_tabla":"TR_ENDISEG21_TAPART_B",
+	 "llaves":"UPM,VIV_SEL,HOGAR,N_REN",
+	 "orden":5,
+	 "v_ini":"RESUL_IND",
+	 "v_fin":"SUM6_7_OTR",
+	 "id_proyecto":"ENDISEG21"
+  },
+  {
+	 "id_tabla":"TR_ENIF21_TVIVIENDA",
+	 "llaves":"UPM,VIV_SEL",
+	 "orden":1,
+	 "v_ini":"P0_1",
+	 "v_fin":"P1_3",
+	 "filtro_verificacion":"RESUL_V IN ('01','02','03','04','05')",
+	 "filtro_validacion":"RESUL_V IN ('01','02','03','04','05')",
+	 "id_proyecto":"ENIF21"
+  },
+  {
+	 "id_tabla":"TR_ENIF21_TSDEM",
+	 "llaves":"UPM,VIV_SEL,HOGAR,N_REN",
+	 "orden":2,
+	 "v_ini":"NOMBRE",
+	 "v_fin":"MES",
+	 "filtro_verificacion":"(RESUL_H = 'A')",
+	 "filtro_validacion":"(RESUL_H  IN ('A','B'))",
+	 "id_proyecto":"ENIF21"
+  },
+  {
+	 "id_tabla":"TR_ENIF21_TMODULO",
+	 "llaves":"UPM,VIV_SEL,HOGAR,N_REN",
+	 "orden":3,
+	 "v_ini":"P3_1_1",
+	 "v_fin":"P6_18_9",
+	 "filtro_verificacion":"(RESUL_I = 'a')",
+	 "filtro_validacion":"(RESUL_I = 'a')",
+	 "id_proyecto":"ENIF21"
+  },
+  {
+	 "id_tabla":"TR_ENIF21_TMODULO2",
+	 "llaves":"UPM,VIV_SEL,HOGAR,N_REN",
+	 "orden":4,
+	 "v_ini":"P7_1_1",
+	 "v_fin":"P14_2_4ESP",
+	 "filtro_verificacion":"(RESUL_I = 'a')",
+	 "filtro_validacion":"(RESUL_I = 'a')",
+	 "id_proyecto":"ENIF21"
+  },
+  {
+	 "id_tabla":"TR_EC21_TINTRODUCTORIAS",
+	 "llaves":"CUNICAH,SUBHOGAR,NP",
+	 "orden":1,
+	 "v_ini":"NOMBRE",
+	 "v_fin":"P4_3_14A",
+	 "filtro_verificacion":"COD_RES_INTRO ='A'",
+	 "filtro_validacion":"COD_RES_INTRO ='A'",
+	 "id_proyecto":"EC21"
+  },
+  {
+	 "id_tabla":"TR_EC21_TEVAL_COG",
+	 "llaves":"CUNICAH,SUBHOGAR,NP",
+	 "orden":2,
+	 "v_ini":"NOMBRE",
+	 "v_fin":"P50",
+	 "filtro_verificacion":"COD_RES_COG IN ('01', '03')",
+	 "filtro_validacion":"COD_RES_COG ='A'",
+	 "id_proyecto":"EC21"
+  },
+  {
+	 "id_tabla":"TR_EC21_TINFORMANTE",
+	 "llaves":"CUNICAH,SUBHOGAR,NP",
+	 "orden":3,
+	 "v_ini":"NOMBRE",
+	 "v_fin":"P50",
+	 "filtro_verificacion":"COD_RES_INFO ='A'",
+	 "filtro_validacion":"COD_RES_INFO ='A'",
+	 "id_proyecto":"EC21"
+  },
+  {
+	 "id_tabla":"TR_EC21_TFALLECIDO",
+	 "llaves":"CUNICAH,SUBHOGAR,NP",
+	 "orden":4,
+	 "v_ini":"PSA2",
+	 "v_fin":"PA",
+	 "filtro_verificacion":"COD_RES_FALL='A'",
+	 "filtro_validacion":"COD_RES_FALL='A'",
+	 "id_proyecto":"EC21"
+  }
+]
